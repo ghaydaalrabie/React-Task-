@@ -1,0 +1,56 @@
+ .wrapper {
+   width: 700px;
+   margin: 0 auto;
+ }
+ 
+
+ table tr td:last-child {
+   width: 120px;
+ }
+
+ h2 , h3{
+  text-align: center;
+  padding-top: 30px;
+ }
+
+ .five{
+  padding-right: 600px;
+ }
+
+ .create{
+  background-color: green;
+  width: 200px;
+  color: azure;
+  padding-left: 30px;
+ }
+
+ .update{
+  background-color: #17a2b8;
+    color: azure;
+    width: 80px;
+      padding-left: 15px;
+ }
+
+ .delete{
+  background-color: #dc3545;
+    color: azure;
+    width: 80px;
+    padding-left: 15px;
+    margin-top: 10px;
+ }
+
+ .pull-left{
+  background-color: #2c3034;
+      color: azure;
+          width: 700px;
+          padding-bottom: 20px;
+          margin-left: 300px;
+          padding-top: 10px;
+          margin-top: 30px;
+ }
+
+ .button{
+  margin-top: 10px;
+  margin-right: 60px;
+ }
+

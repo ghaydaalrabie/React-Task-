@@ -1,0 +1,1015 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Indie+Flower&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+ @font-face {
+  font-family: 'Square Peg', cursive;
+     src: local("SquarePeg-Regular"),
+     url("./fonts/SquarePeg-Regular.ttf") format("truetype");
+
+ }
+
+ 
+
+     @font-face {
+  font-family: 'Indie Flower', cursive;
+         src: local("IndieFlower-Regular"),
+         url("./fonts/IndieFlower-Regular.ttf") format("truetype");
+     }
+
+             @font-face {
+               font-family: 'Berkshire Swash', cursive;
+               src: local("BerkshireSwash-Regular"),
+                 url("./fonts/BerkshireSwash-Regular.ttf") format("truetype"); }
+ 
+
+ .logo {
+   width: 15%;
+
+ }
+
+ .navbar{
+  background-color: #fffbf2; }
+
+.navbar-nav{
+  margin: 0 400px;
+  
+}
+
+.message{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.button{
+    background-color: #fffbf2;
+    }
+
+
+ .portfolio h1 {
+  
+   font-family: 'Indie Flower', cursive;
+   font-size: 40px;
+   text-align: right;
+   color: rgba(59, 64, 63, 1);
+   width: 58%;
+   float: left;
+   padding-top: 55px;
+   margin-top: 20px;
+
+ }
+
+ .heart {
+   width: 4%;
+   padding-top: 55px;
+ }
+
+ /* h1 + heart image  */
+
+ .portfolio {
+   padding-top: 20px;
+
+
+ }
+
+ .headimage {
+   width: 382px;
+   border-radius: 10px;
+   z-index: -1;
+   position: relative;
+  left : 100px ;
+   margin-top: 30px;
+   border-right: 5px solid #eeceb9;
+
+ }
+
+
+ .container {
+   display: flex;
+   margin-top: 0px;
+   justify-content: center;
+
+ }
+
+ .quote p {
+   background-color: #fffbf2;
+   border-radius: 10px;
+ }
+
+
+ .quote {
+   margin-top: 100px;
+   position: absolute;
+   left: 290px;
+
+ }
+
+ .firstbox {
+   font-family: 'Cormorant Infant', serif;
+   font-size: 55px;
+   text-align: center;
+   padding-left: 5px;
+   padding-right: 5px;
+
+ }
+
+ .secondbox {
+   font-family: 'Square Peg', cursive;
+   text-align: center;
+   font-size: 50px;
+
+ }
+
+
+ .author {
+   font-size: 15px;
+   text-align: right;
+   font-family: 'Raleway', sans-serif;
+   padding-right: 10px;
+ }
+
+
+ /* About me Section  */
+
+
+ .aboutme {
+   display: flex;
+   background-image: url("./components/imgs/background.jpg");
+   background-position: right;
+   margin-top: 100px;
+ }
+
+ .aboutmetext {
+  font-family: 'Square Peg', cursive;
+     font-size: 43px;
+   width: 56%;
+   padding-top: 25px;
+   text-align: center;
+
+
+ }
+
+
+
+ .aboutmetitle {
+
+   font-size: 35px;
+   font-family: 'Berkshire Swash', cursive;
+
+
+ }
+
+ .name {
+   color: #fe794d;
+ }
+
+ /* Download Button  */
+
+
+ .btn-con {
+   display: flex;
+   align-self: flex-start;
+   padding-top: 10px;
+ }
+
+ .main-btn {
+   border-radius: 30px;
+   font-weight: 600;
+   position: relative;
+   border: 1px solid black;
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   margin-left: 15%;
+   margin-bottom: 10px;
+
+
+
+ }
+
+ .main-btn .btn-text {
+   padding: 0 2rem;
+
+   /* (32px ) */
+ }
+
+ .btn-text:hover {
+   color: black;
+ }
+
+ .btn-text {
+   color: black;
+ }
+
+
+ .main-btn .btn-icon {
+   background-color: #fe794d;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   padding: 1rem;
+   color: black;
+ }
+
+ .main-btn::before {
+   position: absolute;
+
+ }
+
+ .main-btn:hover {
+   background-color: #fe794d;
+   border-color: black;
+
+
+ }
+
+ .main-btn:hover::before {
+   width: 100%;
+   height: 100%;
+   background-color: #fe794d;
+
+ }
+
+
+
+ /* Technical skills  */
+
+
+ .container2 {
+   display: grid;
+   grid-template-columns: 15% 15% 15% 15%;
+   grid-template-rows: 10% 90%;
+   background-image: url("./components/imgs/tech\ skills\ .jpg");
+   justify-content: center;
+   background-position: top;
+
+ }
+
+ .skills-title {
+   grid-column: span 4;
+   text-align: center;
+   padding-top: 20px;
+   font-family: 'Berkshire Swash', cursive;
+ }
+
+
+ /* Skills With text  */
+
+ .box {
+   width: 300px;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   flex-direction: column;
+
+
+ }
+
+
+ .box .percent {
+   width: 150px;
+   height: 150px;
+   position: relative;
+ }
+
+ .box .percent svg {
+   width: 150px;
+   height: 150px;
+   position: relative;
+ }
+
+ .box .percent svg circle {
+   width: 150px;
+   height: 150px;
+   fill: none;
+   stroke-width: 10;
+   stroke: #000;
+
+   /* A translation moves all the points of an element in the same direction and by the same amount from x and y */
+
+   transform: translate(5px, 5px);
+
+   /* I used the rest of the percentage showing 100%. */
+
+   stroke-dasharray: 440;
+   stroke-dashoffset: 440;
+   stroke-linecap: round;
+
+ }
+
+ /* class to show  white space  */
+
+ .box .percent svg circle:nth-child(1) {
+   stroke-dashoffset: 0;
+   stroke: #f3f3f3;
+ }
+
+ .box .percent svg circle:nth-child(2) {
+
+   /* orange stroke-dashoffset */
+
+   stroke-dashoffset: calc(440 - (440 * 87) / 100);
+   stroke: #dec070;
+
+ }
+
+ .box .percent .num {
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   color: #111;
+ }
+
+ /* i use this style For Bold  number  */
+
+ .box .percent .num h2 {
+   font-size: 48px;
+ }
+
+ .box .percent .num h2 span {
+   font-size: 24px;
+ }
+
+ /* i use this style For Bold  text  */
+
+ .box .text {
+   padding: 10px 0 0;
+   color: black;
+   font-weight: 700;
+   letter-spacing: 1px;
+
+ }
+
+ .container2 .box:hover {
+
+   box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
+ }
+
+
+
+ /* Qualification */
+
+ .qualification {
+   display: flex;
+   background-color: #fffbf2;
+   padding-bottom: 20px;
+
+ }
+
+
+ .title {
+   background-color: #fffbf2;
+   height: 75px;
+ }
+
+ .heading {
+   text-align: center;
+   font-size: 35px;
+   padding-top: 20px;
+   font-family: 'Berkshire Swash', cursive;
+
+
+ }
+
+ .qbox1 {
+   display: flex;
+   flex-direction: column;
+   margin-left: 60px;
+ }
+
+ .qualiimage1,
+ .qualiimage2 {
+   width: 300px;
+   margin-left: 138px;
+   margin-top: 30px;
+   box-shadow: 3px 5px #dec070;
+   border-radius: 10%;
+
+ }
+
+ .qtext {
+   font-family: 'Indie Flower', cursive;
+   text-align: center;
+   font-size: 20px;
+   padding-top: 15px;
+   padding-left: 130px;
+ }
+
+ /* Experience */
+
+
+ #experience {
+   padding: 65px 0;
+   background: #fffbf2;
+   text-align: left;
+   border-top: 1px solid;
+ }
+
+
+
+
+
+ .timeline {
+   padding-left: 0;
+
+   /* i used it to remove list point  */
+
+   list-style: none;
+   position: relative;
+ }
+
+ .timeline:before {
+   background-color: black;
+   content: '';
+   margin-left: -1px;
+   position: absolute;
+   top: 0;
+   left: 25px;
+   width: 2px;
+   height: 100%;
+ }
+
+ .timeline-company {
+   position: relative;
+ }
+
+
+ .position {
+   padding: 15px;
+   position: relative;
+   top: -1.875em;
+   left: 60px;
+   width: 100%;
+ }
+
+ .position h3 {
+   font-size: 25px;
+ }
+
+ .position h4 {
+   font-size: 15px;
+   margin-bottom: 15px;
+ }
+
+ .position strong {
+   font-weight: 700;
+ }
+
+
+ .timeline-company-date {
+   color: black;
+   font-size: 12px;
+   font-weight: bold;
+   background-color: rgb(228, 214, 156);
+   display: inline-block;
+   margin-bottom: 19.2px;
+   padding: 5px 2px 2px 2px;
+ }
+
+ .size-50 {
+   font-size: 43px;
+   line-height: 50px;
+   font-family: 'Berkshire Swash', cursive;
+
+ }
+
+ .h-50 {
+   height: 50px;
+ }
+
+
+
+ footer {
+   background-color: rgb(228, 214, 156);
+   text-align: center;
+   color: black;
+   padding-top: 10px;
+   margin-top: 5px;
+   padding-bottom: 10px;
+
+ }
+
+
+ /* page2 */
+
+ .portfolios {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 32px;
+   margin-top: 48px;
+   margin-bottom: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+
+ }
+
+ .portfolios .portfolio-item {
+   position: relative;
+   border-radius: 15px;
+ }
+
+ .portfolios .portfolio-item img {
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+   border-radius: 15px;
+ }
+
+ .portfolios .portfolio-item .hover-items {
+   width: 100%;
+   height: 100%;
+   background-color: rgb(228, 214, 156);
+   position: absolute;
+   left: 0;
+   top: 0;
+   border-radius: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   /* name project and i icons  */
+
+   flex-direction: column;
+
+   /* i use it to show the picture in background  */
+   opacity: 0;
+   transform: scale(0);
+
+   /* Style of Show  */
+
+   transition: all 0.4s ease-in-out;
+ }
+
+
+ /* For icons  */
+
+ .portfolios .portfolio-item .hover-items .icons {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .portfolios .portfolio-item .hover-items .icons .icon {
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 1rem;
+   cursor: pointer;
+   transition: all 0.4s ease-in-out;
+ }
+
+ .portfolios .portfolio-item .hover-items .icons .icon i {
+
+   font-size: 24px;
+   margin: 0 16px;
+ }
+
+
+
+ .portfolio-item:hover .hover-items {
+   opacity: 1;
+   transform: scale(1);
+ }
+
+ .main-title {
+   text-align: center;
+   padding-top: 70px;
+ }
+
+ .main-title h2 {
+   position: relative;
+   text-transform: uppercase;
+   font-size: 64px;
+   font-weight: 700;
+ }
+
+
+ .projects {
+   color: #ecc875;
+ }
+
+ .port-text {
+   text-align: center;
+   font-size: 18px;
+ }
+
+
+
+
+ /* page 3  */
+
+
+ .mainbackground {
+
+   background: radial-gradient( var(circle, rgba(233, 224, 185, 1) 86%, rgba(236, 137, 150, 1) 100%));
+
+ }
+
+ /* .container-contact {
+   background-image: url("https: //i.pinimg.com/564x/cf/e4/77/cfe47746eb52b8be76fb6712d17cc2ac.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 780px;
+   border-radius: 15px;
+
+
+ } */
+
+ .contact-content-con {
+   display: flex;
+   padding-top: 10px;
+   margin-left: 340px
+ }
+
+
+
+
+
+ /* Email & Phone number  */
+
+ .contact-content-con .left-contact .contact-info .contact-item {
+   display: flex;
+   align-items: center;
+   margin-top: 10px
+ }
+
+ .contact-content-con .left-contact .contact-info .contact-item p {
+   margin: 4.8px 0;
+   padding: 0;
+ }
+
+ .contact-content-con .left-contact .contact-info .contact-item .icon {
+   display: grid;
+   grid-template-columns: 40px 1fr;
+ }
+
+ /* Message icon  */
+ .contact-content-con .left-contact .contact-info .contact-item .icon i {
+   display: flex;
+   align-items: center;
+   font-size: 20.8px;
+ }
+
+ /* mobile icon  */
+ .contact-content-con .left-contact .contact-icon {
+   display: flex;
+   margin-top: 20.8px;
+ }
+
+ .contact-content-con .left-contact .contact-icon a {
+   display: flex;
+   align-items: center;
+   color: #f70017;
+   background-color: #bfbeba;
+   cursor: pointer;
+   justify-content: center;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin: 0 6.4px;
+
+ }
+
+
+ /* Facebook,github... icons hover  */
+
+ .contact-content-con .left-contact .contact-icon a:hover i {
+   color: #bfbeba;
+ }
+
+ /* Red icons  */
+
+ .contact-content-con .left-contact .contact-icon a i {
+
+   font-size: 20.8px;
+ }
+
+ .contact-content-con .right-contact {
+
+   margin-left: 48px;
+ }
+
+ .contact-content-con .right-contact .input-control {
+   margin: 24px 0;
+ }
+
+
+ /* All input boxes  */
+
+ .contact-content-con .right-contact .input-control input,
+ .contact-content-con .right-contact .input-control textarea {
+
+   border-radius: 30px;
+   padding: 12.8px 17.6px;
+
+   /* to remove active */
+
+   outline: none;
+   border: none;
+   background-color: #bfbeba;
+   width: 100%;
+   color: white;
+
+ }
+
+ /* Box Enter email  */
+
+ .contact-content-con .right-contact .i-c-2 {
+   display: flex;
+ }
+
+ /* Space between input  */
+
+ .contact-content-con .right-contact .i-c-2 :last-child {
+   margin-left: 24px;
+ }
+
+
+
+
+
+ .contactwoman {
+   width: 135px;
+   margin-top: 30px;
+   margin-left: 53px;
+ }
+
+
+
+
+
+ @media screen and (max-width: 970px) {
+
+
+   .quote {
+     left: 28px;
+   }
+
+   .aboutimage {
+     line-height: 0.5;
+   }
+
+   .portfolios {
+     grid-template-columns: repeat(1, 1fr);
+     margin-left: 3%;
+     margin-right: 3%;
+   }
+
+   .container2 {
+     grid-template-columns: repeat(1, 1fr);
+     grid-template-rows: 5% 20% 20% 20% 20%;
+   }
+
+   .qualification {
+
+     flex-direction: column;
+   }
+
+   .qualiimage1,
+   .qualiimage2 {
+     margin: auto;
+   }
+
+   .qtext {
+     padding-left: 2px;
+   }
+
+   .skills-title {
+     grid-column: span 1
+   }
+
+   .box {
+     height: 250px;
+     padding-left: 0px;
+     width: 100%;
+   }
+
+   .container {
+     flex-direction: column;
+   }
+
+   .exp-title {
+     margin: 0 auto;
+   }
+
+   .firstbox,
+   .secondbox {
+     font-size: 168%;
+   }
+
+   .aboutme {
+     flex-direction: column;
+     background-position: center;
+
+   }
+
+   .aboutmetext {
+     font-size: 33px;
+     width: 100%;
+     line-height: 40px;
+     margin-top: 15px;
+   }
+
+   .aboutmetitle {
+     margin: 0 auto;
+   }
+
+   .port-text {
+     font-size: 90%;
+   }
+
+   .portfolio h1 {
+     width: 70%;
+   }
+
+   .logo {
+     width: 50%;
+   }
+
+   .headimage {
+     left: 8%;
+     width: 86%;
+   }
+
+   .contact-content-con {
+
+     flex-direction: column-reverse;
+     margin-left: 0px;
+   }
+
+   .contact-content-con .right-contact {
+     margin-left: 3%;
+     flex-direction: column;
+   }
+
+   section#contact {
+     height: 100% !important;
+     background-size: auto;
+   }
+
+   .contact-content-con .left-contact .contact-icon {
+     justify-content: center;
+     padding-bottom: 20px;
+   }
+
+   .contactwoman {
+
+     margin-left: 38%;
+   }
+
+   .contact-content-con .right-contact {
+
+     width: 95%;
+   }
+
+
+   .main-btn {
+
+     margin-left: 33%;
+
+   }
+
+   .btn-con {
+
+     padding-top: 43px;
+     padding-bottom: 20px;
+   }
+
+   .heading {
+     padding-top: 10px;
+   }
+
+ }
+
+ @media screen and (max-width: 415px) {
+
+
+
+   .logo {
+     width: 45%;
+   }
+
+   h1 {
+     width: 94%;
+   }
+
+   .container {
+     flex-direction: column;
+   }
+
+   .headimage {
+     width: 80%;
+     left: 12%;
+   }
+
+   .aboutmetitle {
+     font-size: 24px;
+   }
+
+   .aboutme {
+     line-height: 0.5;
+   }
+
+   .firstbox,
+   .secondbox {
+     font-size: 25px;
+   }
+
+   .author {
+     font-size: 10px;
+   }
+
+   .aboutme {
+     flex-direction: column;
+     background-position: center;
+
+   }
+
+   .aboutmetext {
+     font-size: 33px;
+     width: 100%;
+     line-height: 40px;
+     text-align: center;
+     padding-left: 30px;
+   }
+
+   .aboutmetitle {
+     margin: 0 auto;
+   }
+
+   .timeline-event-copy {
+     left: 25px;
+     top: 10px;
+   }
+
+   .container2 {
+     background-position: bottom;
+   }
+
+   .box {
+     width: 100%;
+     padding-left: 0px;
+   }
+
+   .portfolio h1 {
+     width: 87%;
+   }
+
+   .main-btn {
+     margin-left: 20%;
+   }
+
+   .heading {
+
+     padding-top: 10px;
+   }
+
+   .contactwoman {
+
+     margin-left: 29%;
+   }
+
+
+   .contact-content-con .right-contact {
+
+     width: 98%;
+
+
+   }
+
+   .contact-content-con .left-contact .contact-icon {
+     justify-content: center;
+     padding-bottom: 20px;
+
+
+   }
+
+
+   .contact-content-con .left-contact .contact-info .contact-item {
+
+     padding-left: 40px;
+   }
+
+   .size-50 {
+     padding-bottom: 30px;
+
+
+   }
+
+   p {
+
+
+     padding-right: 50px;
+   }
+ }
